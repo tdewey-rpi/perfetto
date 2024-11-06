@@ -4,3 +4,7 @@ out/release/traced_probes usr/sbin
 out/release/perfetto usr/bin
 debian/traced.service lib/systemd/system
 debian/traced-probes.service lib/systemd/system
+
+test/configs/scheduling.cfg var/lib/perfetto/configs
+test/configs/summary.cfg var/lib/perfetto/configs
+test/configs/rss_stat.cfg var/lib/perfetto/configs
